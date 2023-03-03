@@ -1,3 +1,4 @@
+import { TaskList } from './../../model/task-list';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./todo-list.component.scss']
 })
 export class TodoListComponent {
+
+  public taskList: Array<TaskList> = [];
 
 }
