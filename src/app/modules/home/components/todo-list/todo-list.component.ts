@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TodoListComponent {
 
-  public taskList: Array<TaskList> = [];
+  public taskList: Array<TaskList> = [
+    {task: "Minha nova Task", checked: true},
+    {task: "Minha nova Task 2", checked: false}
+  ];
 
 }
